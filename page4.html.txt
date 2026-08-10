@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  color: #4b2431;
+  font-family: Georgia, "Times New Roman", serif;
+
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(255,255,255,0.9),
+      transparent 28%
+    ),
+    linear-gradient(
+      145deg,
+      #ffd9e5 0%,
+      #fff1f5 48%,
+      #f8d5e3 100%
+    );
+}
+
+.screen {
+  width: 100%;
+  max-width: 480px;
+  min-height: 100vh;
+
+  margin: auto;
+  padding: 42px 22px 34px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.episode {
+  text-align: center;
+
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+
+  letter-spacing: 3px;
+
+  color: #a94e70;
+
+  margin-bottom: 14px;
+}
+
+h1 {
+  text-align: center;
+
+  font-size: 31px;
+  line-height: 1.15;
+
+  margin: 0 auto 24px;
+
+  color: #7c2948;
+
+  text-shadow: 0 2px 8px rgba(124,41,72,0.12);
+}
+
+.card {
+  background: rgba(255,255,255,0.68);
+
+  border: 1px solid rgba(255,255,255,0.9);
+
+  border-radius: 25px;
+
+  padding: 25px 21px;
+
+  box-shadow:
+    0 18px 45px rgba(120,47,72,0.14),
+    inset 0 1px rgba(255,255,255,0.8);
+
+  backdrop-filter: blur(12px);
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.72;
+
+  margin: 0 0 17px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+b {
+  color: #8f3155;
+}
+
+.final {
+  text-align: center;
+
+  font-weight: bold;
+
+  color: #a22f59;
+
+  margin-top: 22px;
+}
+
+.next,
+.back {
+  display: block;
+
+  text-decoration: none;
+  text-align: center;
+
+  margin-top: 25px;
+
+  padding: 14px 20px;
+
+  border-radius: 999px;
+
+  background: #a8325e;
+  color: white;
+
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+
+  box-shadow: 0 10px 24px rgba(168,50,94,0.25);
+}
+
+.back {
+  background: rgba(255,255,255,0.7);
+  color: #8f3155;
+
+  border: 1px solid rgba(168,50,94,0.15);
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.nav > * {
+  flex: 1;
+}
+
+.small,
+.back {
+  font-size: 14px;
+}
+
+@media (max-width: 360px) {
+
+  .screen {
+    padding: 30px 16px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .card {
+    padding: 21px 17px;
+  }
+}

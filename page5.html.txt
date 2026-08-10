@@ -1,0 +1,16 @@
+document.addEventListener("click", function (e) {
+
+  const link = e.target.closest("a");
+
+  if (link) {
+
+    document.body.style.opacity = "0";
+    document.body.style.transition = "opacity 0.18s ease";
+
+    setTimeout(function () {
+      document.body.style.opacity = "1";
+    }, 180);
+
+  }
+
+});

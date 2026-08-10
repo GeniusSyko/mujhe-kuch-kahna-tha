@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mujhe Kuch Kehna Tha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="screen">
+
+  <div class="episode">EPISODE 01</div>
+
+  <h1>Mujhe Kuch Kehna Tha</h1>
+
+  <div class="card">
+    <p>Tune mujhse poocha tha na, tere haath kyun kaapte hain?</p>
+
+    <p>
+      Haan, mere haath kaapte hain jab tu mere saath hoti hai.
+      Lekin jab tu mere saath hoti hai, tab main bahut khush hota hoon.
+    </p>
+
+    <p>
+      Bhale woh khushi tujhe mere chehre par dikhti nahi hogi,
+      kyunki jab tu mere saath hoti hai tab mujhe ek baat bahut
+      pareshaan karti hai —
+      <b>tu mere saath safe feel karti hai ya nahi.</b>
+    </p>
+  </div>
+
+  <a class="next" href="page2.html">Aage Padho →</a>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
